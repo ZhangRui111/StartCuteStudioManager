@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/publishTextView"
+        android:gravity="center"
+        android:text="设置"
+        android:textColor="@color/BLACK"
+        android:textSize="25sp"
+        android:layout_below="@id/top_blank"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:text="头像"
+            android:textColor="@color/BLACK"
+            android:textSize="@dimen/btn_login"
+            android:background="@drawable/btn_login"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/btn_login_height" />
+        <ImageView
+            android:id="@+id/iconImageView"
+            android:background="@mipmap/ic_launcher"
+            android:layout_marginLeft="120dp"
+            android:layout_width="64dp"
+            android:layout_height="64dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/modifyIcon"
+        android:text="修改头像"
+        android:textColor="@color/BLACK"
+        android:textSize="@dimen/btn_login"
+        android:background="@drawable/btn_login"
+        android:gravity="center"
+        android:layout_width="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/modifyPasswordBtn"
+        android:text="修改密码"
+        android:textColor="@color/BLACK"
+        android:textSize="@dimen/btn_login"
+        android:background="@drawable/btn_login"
+        android:gravity="center"
+        android:layout_width="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logoffBtn"
+        android:text="退出登录"
+        android:textColor="@color/BLACK"
+        android:textSize="@dimen/btn_login"
+        android:background="@drawable/btn_login"
+        android:gravity="center"
+        android:layout_width="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

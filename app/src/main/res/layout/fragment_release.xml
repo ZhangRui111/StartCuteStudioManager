@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/top_blank"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/publishTextView"
+        android:gravity="center"
+        android:text="我的发布"
+        android:textColor="@color/BLACK"
+        android:textSize="25sp"
+        android:layout_below="@id/top_blank"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/todayPlanEditView"
+        android:text="今日计划"
+        android:textSize="20sp"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/publishTextView"
+        android:layout_alignLeft="@+id/belowTodayLine"
+        android:layout_alignStart="@+id/belowTodayLine"
+        android:layout_marginTop="33dp" />
+    <View
+        android:id="@+id/belowTodayLine"
+        android:background="@color/GRAY"
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/todayPlanEditView"
+        android:layout_centerHorizontal="true" />
+    <ImageButton
+        android:id="@+id/editIcon1ImageButton"
+        android:background="@drawable/imagebtn_editicon"
+        android:layout_marginBottom="5dp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/todayPlanEditView"
+        android:layout_alignRight="@+id/belowTodayLine"
+        android:layout_alignEnd="@+id/belowTodayLine" />
+    <LinearLayout
+        android:focusable="true" android:focusableInTouchMode="true"
+        android:layout_width="0px" android:layout_height="0px">
+        <requestFocus />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/editTodayPlan"
+        android:background="@null"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/belowTodayLine"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tomorrowPlanEditView"
+        android:text="明日计划"
+        android:textSize="20sp"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="157dp"
+        android:layout_below="@+id/belowTodayLine"
+        android:layout_alignLeft="@+id/belowTomorrowLine"
+        android:layout_alignStart="@+id/belowTomorrowLine" />
+    <View
+        android:id="@+id/belowTomorrowLine"
+        android:background="@color/GRAY"
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@+id/belowTodayLine"
+        android:layout_alignStart="@+id/belowTodayLine"
+        android:layout_below="@+id/tomorrowPlanEditView" />
+    <ImageButton
+        android:id="@+id/editIcon2ImageButton"
+        android:background="@drawable/imagebtn_editicon"
+        android:layout_marginBottom="5dp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/tomorrowPlanEditView"
+        android:layout_alignRight="@+id/belowTomorrowLine"
+        android:layout_alignEnd="@+id/belowTomorrowLine" />
+    <EditText
+        android:id="@+id/editTomorrowPlan"
+        android:background="@null"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/belowTomorrowLine"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:text="SAVE"
+        android:textColor="@color/BLUE"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTomorrowPlan"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

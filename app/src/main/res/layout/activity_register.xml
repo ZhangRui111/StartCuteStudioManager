@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_reg"
+        android:text="Sign up"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="84dp" />
+
+    <ImageView
+        android:id="@+id/img_reg"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/txt_reg"
+        android:layout_alignLeft="@+id/txt_reg"
+        android:layout_alignStart="@+id/txt_reg"
+        android:layout_marginTop="29dp" />
+
+    <Button
+        android:id="@+id/btn_reg"
+        android:text="点击上传头像"
+        android:textSize="20sp"
+        android:textColor="@color/BLUE"
+        android:background="@drawable/btn_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignTop="@+id/img_reg"
+        android:layout_toRightOf="@+id/img_reg"
+        android:layout_toEndOf="@+id/img_reg" />
+
+    <EditText
+        android:id="@+id/edt1_reg"
+        android:hint="真实姓名"
+        android:textSize="25sp"
+        android:textColorHint="@color/GRAY"
+        android:textColor="@color/BLACK"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/img_reg"
+        android:layout_alignStart="@+id/img_reg" />
+
+    <EditText
+        android:id="@+id/edt2_reg"
+        android:hint="密码"
+        android:textSize="25sp"
+        android:textColorHint="@color/GRAY"
+        android:textColor="@color/BLACK"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:inputType="textPassword"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edt1_reg"
+        android:layout_alignLeft="@+id/edt1_reg"
+        android:layout_alignStart="@+id/edt1_reg"
+        android:layout_marginTop="37dp" />
+
+    <EditText
+        android:id="@+id/edt3_reg"
+        android:hint="分组"
+        android:textSize="25sp"
+        android:textColorHint="@color/GRAY"
+        android:textColor="@color/BLACK"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/edt2_reg"
+        android:layout_alignLeft="@+id/edt2_reg"
+        android:layout_alignStart="@+id/edt2_reg" />
+
+    <Button
+        android:id="@+id/btn_reg_save"
+        android:text="确认"
+        android:textSize="25sp"
+        android:textColor="@color/BLUE"
+        android:background="@drawable/btn_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt3_reg"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/img_reg"
+        android:layout_toEndOf="@+id/img_reg" />
+
+</RelativeLayout>

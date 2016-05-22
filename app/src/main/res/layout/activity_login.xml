@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt1_login"
+        android:text="@string/txt1_login"
+        android:textSize="@dimen/txt1_login"
+        android:textColor="@color/BLACK"
+        android:layout_marginTop="@dimen/txt1_marTop"
+        android:layout_marginRight="@dimen/txt1_marRight"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/txt_login_height" />
+
+    <TextView
+        android:id="@+id/txt2_login"
+        android:text="@string/txt2_login"
+        android:textSize="@dimen/txt2_login"
+        android:textColor="@color/BLACK"
+        android:layout_marginTop="@dimen/txt2_marTop"
+        android:layout_marginRight="@dimen/txt2_marRight"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/txt_login_height" />
+
+    <TextView
+        android:id="@+id/txt3_login"
+        android:text="@string/txt3_login"
+        android:textSize="@dimen/txt3_login"
+        android:textColor="@color/GRAY"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/txt_login_height" />
+
+    <EditText
+        android:id="@+id/edt1_login"
+        android:hint="@string/edt1_login"
+        android:background="@null"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:layout_marginTop="@dimen/edt1_marTop"
+        android:layout_marginLeft="@dimen/edt_marLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/edt_login_height" />
+
+    <EditText
+        android:id="@+id/edt2_login"
+        android:hint="@string/edt2_login"
+        android:background="@null"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:inputType="textPassword"
+        android:layout_marginTop="@dimen/edt2_marTop"
+        android:layout_marginLeft="@dimen/edt_marLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/edt_login_height" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:text="@string/btnText_login"
+        android:textColor="@color/BLUE"
+        android:textSize="@dimen/btn_login"
+        android:background="@drawable/btn_login"
+        android:layout_marginTop="@dimen/btn_login_marTop"
+        android:layout_marginLeft="@dimen/btn_login_marLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/btn_login_height" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt4_login"
+            android:text="@string/txt4_login"
+            android:textColor="@color/GRAY"
+            android:textSize="@dimen/txt4_login"
+            android:layout_marginTop="@dimen/txt4_marTop"
+            android:layout_marginLeft="@dimen/txt4_marLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn2_login"
+            android:text="@string/btn2Text_login"
+            android:textSize="@dimen/txt4_login"
+            android:textColor="@color/BLUE"
+            android:background="@null"
+            android:layout_marginTop="@dimen/txt4_marTop"
+            android:layout_toRightOf="@id/txt4_login"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/btn2_login_height" />
+
+    </RelativeLayout>
+
+</LinearLayout>

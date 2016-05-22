@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">StartCuteStudio</string>
+    <string name="txt1_login">Teameaser</string>
+    <string name="txt2_login">Welcome back!</string>
+    <string name="txt3_login">Sign in teameaser.</string>
+    <string name="txt4_login">还没有账号?点击</string>
+    <string name="edt1_login">真实姓名</string>
+    <string name="edt2_login">密码</string>
+    <string name="btnText_login">登陆</string>
+    <string name="btn2Text_login">注册</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab_menu_alert">我的发布</string>
+    <string name="tab_menu_profile">小组任务</string>
+    <string name="tab_menu_pay">发布展示</string>
+    <string name="tab_menu_setting">我的设置</string>
+</resources>
